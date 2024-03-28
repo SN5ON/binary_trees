@@ -6,7 +6,7 @@
  *
  * Return: node is NULL,node has no sibling or the parent is NULL,
  * return NULL
- *   
+ *
  */
 binary_tree_t *binary_tree_sibling(binary_tree_t *node)
 {
