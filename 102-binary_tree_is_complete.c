@@ -47,10 +47,10 @@ void free_queue(levelorder_queue_t *head)
 /**
  * push - pushes a node to the back of a levelorder_queue_t queue
  * @node: binary tree node to print and push
- * @head: double pointer to the head of the queue
+ * @headi: double pointer to the head of the queue
  * @tail: double pointer to the tail of the queue
  *
- * 
+ *
  */
 void push(binary_tree_t *node, levelorder_queue_t *head,
 		levelorder_queue_t **tail)
@@ -87,7 +87,7 @@ void pop(levelorder_queue_t **head)
  * Return: If tree is NULL, your function must return 0
  *
  *
- * 
+ *
  */
 int binary_tree_is_complete(const binary_tree_t *tree)
 {
